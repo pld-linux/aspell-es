@@ -20,7 +20,7 @@ Spanish dictionary (i.e. word list) for aspell.
 %description -l pl
 Hiszpañski s³ownik (lista s³ów) dla aspella.
 
-%description es -l pt_BR
+%description -l pt_BR
 Dicionários da língua espanhola para o verificador ortográfico aspell.
 
 %prep
