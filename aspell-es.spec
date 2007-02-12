@@ -1,7 +1,7 @@
 Summary:	Spanish dictionary for aspell
-Summary(es.UTF-8):   Diccionario de español para aspell
-Summary(pl.UTF-8):   Hiszpański słownik dla aspella
-Summary(pt_BR.UTF-8):   Dicionário de espanhol para o aspell
+Summary(es.UTF-8):	Diccionario de español para aspell
+Summary(pl.UTF-8):	Hiszpański słownik dla aspella
+Summary(pt_BR.UTF-8):	Dicionário de espanhol para o aspell
 Name:		aspell-es
 Version:	0.50
 %define	subv	2
