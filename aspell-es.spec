@@ -1,7 +1,7 @@
 Summary:	Spanish dictionary for aspell
-Summary(es):	Diccionario de español para aspell
-Summary(pl):	Hiszpañski s³ownik dla aspella
-Summary(pt_BR):	Dicionário de espanhol para o aspell
+Summary(es.UTF-8):   Diccionario de espaÃ±ol para aspell
+Summary(pl.UTF-8):   HiszpaÅ„ski sÅ‚ownik dla aspella
+Summary(pt_BR.UTF-8):   DicionÃ¡rio de espanhol para o aspell
 Name:		aspell-es
 Version:	0.50
 %define	subv	2
@@ -19,14 +19,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Spanish dictionary (i.e. word list) for aspell.
 
-%description -l es
-Diccionario de la lengua española para el verificador ortográfico aspell.
+%description -l es.UTF-8
+Diccionario de la lengua espaÃ±ola para el verificador ortogrÃ¡fico aspell.
 
-%description -l pl
-Hiszpañski s³ownik (lista s³ów) dla aspella.
+%description -l pl.UTF-8
+HiszpaÅ„ski sÅ‚ownik (lista sÅ‚Ã³w) dla aspella.
 
-%description -l pt_BR
-Dicionários da língua espanhola para o verificador ortográfico aspell.
+%description -l pt_BR.UTF-8
+DicionÃ¡rios da lÃ­ngua espanhola para o verificador ortogrÃ¡fico aspell.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
