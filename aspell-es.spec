@@ -3,14 +3,14 @@ Summary(es.UTF-8):	Diccionario de español para aspell
 Summary(pl.UTF-8):	Hiszpański słownik dla aspella
 Summary(pt_BR.UTF-8):	Dicionário de espanhol para o aspell
 Name:		aspell-es
-Version:	1.9a
-%define	subv	1
+Version:	1.11
+%define	subv	2
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/es/aspell6-es-%{version}-%{subv}.tar.bz2
-# Source0-md5:	473c980181e1930d075c6111a7a68e49
+# Source0-md5:	8406336a89c64e47e96f4153d0af70c4
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
@@ -49,5 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/*
-%{_datadir}/aspell/*
+%{_libdir}/aspell/castellano.alias
+%{_libdir}/aspell/es.*
+%{_libdir}/aspell/espanol.alias
+%{_libdir}/aspell/spanish.alias
+%{_datadir}/aspell/es.dat
+%{_datadir}/aspell/es_affix.dat
