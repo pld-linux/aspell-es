@@ -13,6 +13,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/es/aspell6-es-%{version}-%{subv}.tar
 # Source0-md5:	8406336a89c64e47e96f4153d0af70c4
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60.0
+BuildRequires:	which
 Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
